@@ -1,0 +1,19 @@
+
+// Get the element where the event occurred
+
+const element = event.target;
+
+let text = event.target.tagName;
+
+// Description
+// The target property returns the element where the event occured.
+
+// The target property is read-only.
+
+// The target property returns the element on which the event occurred, opposed to the currentTarget property, which returns the element whose event listener triggered the event.
+
+// 
+// Return Value:	
+// An Object.
+// The object where the event originally occured.
+
